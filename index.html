@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard - Petra</title>
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" type="" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="" href="css/easy-pie-chart.css">
+    <link rel="stylesheet" type="" href="css/index.css">
+  </head>
+  <body>
+    <nav>
+      <div class="container-fluid dashboardhead">
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <a href="#" class="navbar-brand"><img src="img/petra_logo.png" alt="Petra Logo" width="80px"></a>
+          
+          
+            <span class="petrawhite smalltext textweight user">Wayne Waters <i class="glyphicon glyphicon-menu-down petraorange verysmalltext"></i></span> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <i class="glyphicon glyphicon-menu-hamburger petrawhite" style="margin-left:15px; margin-right:5px"></i><span class="petraorange" style="font-size: 1.7em">Dashboard</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="dates">
+            <span class="verysmalltext petrawhite datesitem">FROM: <input type="text" class="fromdate" value="" placeholder="18/01/2017"><span class="caret"></span></span>
+            <span class="verysmalltext petrawhite datesitem">TO: <input type="text" class="fromdate" value="" placeholder="18/01/2017"><span class="caret"></span></span>
+            <span class="verysmalltext petrawhite datesitem"><input type="text" class="fromdate" value="" placeholder="Today"><span class="caret"></span></span>
+          </div> 
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid dashboardbody">
+      <div class="row cards">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="card">
+          <div class="cardheader">Schedules <span class="glyphicon glyphicon-triangle-right petraorange"></span></div>
+          <div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-2">
+              <div class="numbers petrablue">4,521</div><div class="verysmalltext">RECORDS</div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="charrt">
+              <div class="chart-notvalid" data-percent="15">15</div>
+              <div class="verysmalltext">NOT VALID</div>
+              </div>
+              <div class="charrt">
+              <div class="chart-correctionsrequested" data-percent="45">45</div>
+              <div class="verysmalltext">CORRECTIONS</div>
+              <div class="verysmalltext">REQUESTED</div>
+              </div>
+              <div class="charrt">
+              <div class="chart-valid" data-percent="30">30</div><div class="verysmalltext">VALID</div>
+              </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4">
+              <div class="verysmalltext">SHORTCUTS</div>
+              <div class="smalltext">Create New Schedule <span class="glyphicon glyphicon-plus-sign petraorange glyph"></span></div>
+              
+              <ul>
+                <li class="verysmalltext">Not valid (<span>4</span>)</li>
+                <li class="verysmalltext">Valid (<span>125</span>)</li>
+                <li class="verysmalltext">Uploaded today (<span>9</span>)</li>
+                <li class="verysmalltext">Matched (<span>103</span>)</li>
+                <li class="verysmalltext">Unmatched (<span>12</span>)</li>
+              </ul>
+            </div>
+          </div>
+          <!--card-->
+        </div>   
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="card">
+          <div class="cardheader">Payments <span class="glyphicon glyphicon-triangle-right petraorange"></span></div>
+          <div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-2">
+              <div class="numbers petrablue">1,289</div><div class="verysmalltext">RECORDS</div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="charrt">
+              <div class="chart-notvalid" data-percent="15">15</div>
+              <div class="verysmalltext">RETURNED</div>
+              </div>
+              <div class="charrt">
+              <div class="chart-correctionsrequested" data-percent="45">45</div>
+              <div class="verysmalltext">RESOLVED</div>
+              </div>
+              <div class="charrt">
+              <div class="chart-valid" data-percent="30">30</div><div class="verysmalltext">MATCHED</div>
+              </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4">
+              <div class="verysmalltext">SHORTCUTS</div>
+              <div class="smalltext">Upload New Statement <span class="glyphicon glyphicon-plus-sign petraorange glyph"></span></div>
+              
+              <ul>
+                <li class="verysmalltext">Unidentified (<span>4</span>)</li>
+                <li class="verysmalltext">Identified (<span>125</span>)</li>
+                <li class="verysmalltext">Deleted (<span>26</span>)</li>
+                <li class="verysmalltext">Returned (<span>62</span>)</li>
+                <li class="verysmalltext">Debits (<span>9</span>)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="row cards">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="card">
+          <div class="cardheader">Deals <span class="glyphicon glyphicon-triangle-right petraorange"></span></div>
+          </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="card">
+          <div class="cardheader">Redemptions <span class="glyphicon glyphicon-triangle-right petraorange"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+    <script src="js/jquery.min.js"></script>
+    
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>-->
+    <script src="js/jquery-ui.min.js"></script>
+    <!--https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/easy-pie-chart.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
